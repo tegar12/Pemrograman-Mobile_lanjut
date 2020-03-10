@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".biodata"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/tgr"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUTRA PAMUNGKAS TEGAR IMAN"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Institut Teknologi Telkom Purwokerto"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="2dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17104031"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="25dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <Button
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="Nomor Telepon"
+        android:textColor="#FF00FF"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
